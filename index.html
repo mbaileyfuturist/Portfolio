@@ -9,15 +9,16 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    </head>
+        <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+        </head>
     <body>
 
         <header class=" row bg-dark">
             <div id="mySidenav" class="sidenav" style="opacity:0.9">
                 <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                <a href="https://github.com/mbaileyfuturist" target="_BLANK">Github</a>
-                <a href="#">Portfollio</a>
-                <a href="" data-toggle="modal" data-target="#exampleModal">Contact</a>
+                <a class="text-center" href="https://github.com/mbaileyfuturist" target="_BLANK">Github</a>
+                <a class="text-center" href="#">Portfollio</a>
+                <a class="text-center" href="" data-toggle="modal" data-target="#exampleModal">Contact</a>
             </div>
 
             <div class="col mt-4">
@@ -26,16 +27,19 @@
 
            <div class="portfollio-div col mt-2">
                <div id="portfollio-div">
-                <ion-icon id="portfollio-icon" name="folder-open-outline" data-toggle="tooltip" data-placement="bottom" title="portfolio"></ion-icon>
+                <ion-icon id="portfollio-icon" name="folder-open-outline" title="portfolio"></ion-icon>
+                <p class="h5 text-white mr-1">Portfolio</p>
                </div>
            </div>
           
            <div class="github-div col mt-2">
-            <a href="https://github.com/mbaileyfuturist" target="_BLANK" data-toggle="tooltip" data-placement="bottom" title="github"><ion-icon id="github-icon" name="logo-github"></ion-icon></a>
-           </div>
+            <a href="https://github.com/mbaileyfuturist" target="_BLANK" title="github"><ion-icon id="github-icon" name="logo-github"></ion-icon></a>
+           <p class="h5 text-white">Github</p>
+            </div>
            
            <div class="contact-div col mt-2" data-toggle="modal" data-target="#exampleModal">
-            <ion-icon id="contact-icon" name="person-circle-outline" data-toggle="tooltip" data-placement="bottom" title="contact"></ion-icon>
+            <ion-icon id="contact-icon" name="person-circle-outline" title="contact"></ion-icon>
+            <p class="h5 text-white">Contact</p>
            </div>
 
             <!-- Contact Forum -->

@@ -1,4 +1,9 @@
 
+a:hover{
+  text-decoration:none;
+  color:blue;
+}
+
 #particles-js{
   background-color:white;
 }

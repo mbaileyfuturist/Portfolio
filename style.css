@@ -1,4 +1,6 @@
-
+html{
+  scroll-behavior: smooth;
+}
 a:hover{
   text-decoration:none;
   color:blue;
@@ -103,7 +105,7 @@ a:hover{
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
 }
-.mission-statement{
+#about{
   font-family: 'Recursive', sans-serif;
 }
 .footer-social{

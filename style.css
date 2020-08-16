@@ -1,6 +1,11 @@
 html{
   scroll-behavior: smooth;
 }
+#swipePinContainer{
+  width:100%;
+  height:100%;
+  overflow:hidden;
+}
 a:hover{
   text-decoration:none;
   color:blue;

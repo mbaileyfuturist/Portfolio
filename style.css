@@ -114,15 +114,13 @@ a:hover{
   font-family: 'Recursive', sans-serif;
 }
 .footer-social{
-  font-size:50px;
+  margin-top:10%;
+  font-size:70px;
   margin-left:20px;
   color:white !important;
 }
 .footer-social:hover, .footer-nav h4:hover{
   color:blue !important;
-}
-.footer-nav, .icon-label, #mySidenav a{
-  font-family: 'Recursive', sans-serif !important;
 }
 
 /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */

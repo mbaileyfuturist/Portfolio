@@ -7,8 +7,8 @@ html{
   overflow:hidden;
 }
 a:hover{
-  text-decoration:none;
-  color:blue;
+  text-decoration:none !important;
+  color:#0275d8;
 }
 
 #particles-js{
@@ -22,7 +22,7 @@ a:hover{
 }
 
 .menu:hover{
-  color:blue !important;
+  color:#0275d8 !important;
 }
 
 #portfollio-icon{
@@ -41,15 +41,15 @@ a:hover{
 }
 
 #portfollio-icon:hover{
-  color:blue;
+  color:#0275d8;
 }
 
 #github-icon:hover{
-  color:blue;
+  color:#0275d8;
 }
 
 #contact-icon:hover{
-  color:blue;
+  color:#0275d8;
 }
 
 #main{
@@ -86,7 +86,7 @@ a:hover{
 
 /* When you mouse over the navigation links, change their color */
 .sidenav a:hover {
-  color: blue;
+  color: #0275d8;
   text-decoration:none;
 }
 
@@ -120,7 +120,7 @@ a:hover{
   color:white !important;
 }
 .footer-social:hover, .footer-nav h4:hover{
-  color:blue !important;
+  color:#0275d8 !important;
 }
 
 /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */

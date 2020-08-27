@@ -72,7 +72,7 @@
         <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
         <script>
-            particlesJS.load('particles-js','particles.json', function(){
+            particlesJS.load('particles-js','../static/particles.json', function(){
                 console.log('particles.jason loaded...');
             })
         </script>

@@ -50,10 +50,11 @@
                 <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
                 <a class="text-center" href="#about">About</a>
                 <a class="text-center" href="" data-toggle="modal" data-target="#exampleModal">Contact</a>
-                <a class="text-center" href="portfolio.html">Portfolio</a>
+                <a class="text-center" href="portfolio.php">Portfolio</a>
                 <a class="text-center" href="#services">Services</a>
                 <a class="text-center" href="#design-process" >Design Process</a>
-                <a class="text-center" href="#prices">prices</a>
+                <a class="text-center" href="index.php">Home</a>
+                <!--<a class="text-center" href="#prices">prices</a>-->
             </div>
 
             <div class="col mt-4">
@@ -62,7 +63,7 @@
 
            <div class="portfollio-div col mt-2">
                <div id="portfollio-div">
-                   <a href="portfolio.html"><ion-icon id="portfollio-icon" name="folder-open-outline" title="portfolio"></ion-icon></a>
+                   <a href="portfolio.php"><ion-icon id="portfollio-icon" name="folder-open-outline" title="portfolio"></ion-icon></a>
                     <p class="h5 text-white mr-5 icon-label">Portfolio</p>
                </div>
            </div>

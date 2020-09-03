@@ -50,10 +50,10 @@
                           </div>
 
 
-                        <a href="portfolio.html"><h4 class="text-white">Portfolio</h4></a>
+                        <a href="portfolio.php"><h4 class="text-white">Portfolio</h4></a>
                         <a href="#services"><h4 class="text-white">Services</h4></a>
                         <a href="#design-process"><h4 class="text-white">Design Process</h4></a>
-                        <a href="#prices"><h4 class="text-white">Prices</h4></a>
+                        <!--<a href="#prices"><h4 class="text-white">Prices</h4></a>-->
                     </nav>
                 </div>
                 <div class="col-sm">

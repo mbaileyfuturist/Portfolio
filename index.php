@@ -12,7 +12,7 @@
               </div>
 
               <div class="col-sm d-flex align-items-center">
-                  <img class="profile-pic" src="../static/images/Portfolio.JPG" style="width:500px;height:700px">
+                  <img class="profile-pic" src="static/images/Portfolio.JPG" style="width:500px;height:700px">
               </div>
             </section>
 
@@ -116,7 +116,7 @@
               </div>
 
               <div class="col-sm"  style="margin-top:5%;">
-                <img src="../static/images/people-outline-blue.png" style="width:100px;height:100px;margin-left:40%;">
+                <img src="static/images/people-outline-blue.png" style="width:100px;height:100px;margin-left:40%;">
               </div>
             </div>
 
@@ -126,7 +126,7 @@
               </div>
 
               <div class="col-sm">
-                <img src="../static/images/eye-outline-blue.png" style="width:100px;height:100px;margin-left:40%;">
+                <img src="static/images/eye-outline-blue.png" style="width:100px;height:100px;margin-left:40%;">
               </div>
             </div>
 
@@ -136,7 +136,7 @@
               </div>
 
               <div class="col-sm">
-                <img src="../static/images/images-outline-blue.png" style="width:100px;height:100px;margin-left:40%;">
+                <img src="static/images/images-outline-blue.png" style="width:100px;height:100px;margin-left:40%;">
               </div>
             </div>
 
@@ -146,7 +146,7 @@
               </div>
 
               <div class="col-sm">
-                <img src="../static/images/hammer-outline-blue.png" style="width:100px;height:100px;margin-left:40%;">
+                <img src="static/images/hammer-outline-blue.png" style="width:100px;height:100px;margin-left:40%;">
               </div>
             </div>
 
@@ -156,7 +156,7 @@
               </div>
 
               <div class="col-sm">
-                <img src="../static/images/thumbs-up-outline-blue.png" style="width:100px;height:100px;margin-left:40%;">
+                <img src="static/images/thumbs-up-outline-blue.png" style="width:100px;height:100px;margin-left:40%;">
               </div>
             </div>
             
@@ -166,7 +166,7 @@
               </div>
 
               <div class="col-sm">
-                <img src="../static/images/rocket-outline-blue.png" style="width:125px;height:125px;margin-left:40%;">
+                <img src="static/images/rocket-outline-blue.png" style="width:125px;height:125px;margin-left:40%;">
               </div>
             </div>
 

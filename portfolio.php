@@ -11,7 +11,7 @@
 
             <div class="row mt-5">
                 <div class="col-sm">
-                    <a href="http://sub3.mbaileyfuturist.dev/Auto-Body-Template/templates/" target="_BLANK"><img style="width:30rem;height:21rem;" src="static/images/AutoTemplate.png"></a>
+                    <a href="http://sub6.mbaileyfuturist.dev" target="_BLANK"><img style="width:30rem;height:21rem;" src="static/images/AutoTemplate.png"></a>
                 </div>
                 <div class="col-sm">
                 <a href="http://sub5.mbaileyfuturist.dev" target="_BLANK"><img style="width:30rem;height:21rem;" src="static/images/InvestmentHub.png"></a>

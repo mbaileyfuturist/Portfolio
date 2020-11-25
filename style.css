@@ -40,6 +40,15 @@ a:hover{
   font-size:64px;
 }
 
+#home-icon{
+  color:white;
+  font-size:64px;
+}
+
+#home-icon:hover{
+  color:#0275d8 !important;
+}
+
 #portfollio-icon:hover{
   color:#0275d8;
 }

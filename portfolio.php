@@ -5,11 +5,11 @@
 <header class=" row bg-dark">
     <div id="mySidenav" class="sidenav" style="opacity:0.9">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-        <a class="text-center" href="#about">About</a>
+        <a class="text-center" href="index.php#about">About</a>
         <a class="text-center" href="" data-toggle="modal" data-target="#exampleModal">Contact</a>
         <a class="text-center" href="portfolio.php">Portfolio</a>
-        <a class="text-center" href="#services">Services</a>
-        <a class="text-center" href="#design-process" >Design Process</a>
+        <a class="text-center" href="index.php#services">Services</a>
+        <a class="text-center" href="index.php#design-process" >Design Process</a>
         <a class="text-center" href="index.php">Home</a>
         <!--<a class="text-center" href="#prices">prices</a>-->
     </div>
@@ -18,16 +18,14 @@
     <ion-icon class="menu" onclick="openNav()" name="reorder-three-outline" style="color:white"></ion-icon>
     </div>
 
-   <div class="portfollio-div col mt-2">
-       <div id="portfollio-div">
-           <a href="portfolio.php"><ion-icon id="portfollio-icon" name="folder-open-outline" title="portfolio"></ion-icon></a>
-            <p class="h5 text-white mr-5 icon-label">Portfolio</p>
-       </div>
+   <div class="home-div col mt-2">
+        <a href="index.php"><ion-icon id="contact-icon" name="home-outline" title="home"></ion-icon></a>
+        <p class="h5 text-white mr-5 icon-label">Home</p>
    </div>
   
    <div class="github-div col mt-2">
-    <a href="https://github.com/mbaileyfuturist" target="_BLANK" title="github"><ion-icon id="github-icon" name="logo-github"></ion-icon></a>
-   <p class="h5 text-white icon-label">Github</p>
+        <a href="https://github.com/mbaileyfuturist" target="_BLANK" title="github"><ion-icon id="github-icon" name="logo-github"></ion-icon></a>
+        <p class="h5 text-white icon-label">Github</p>
     </div>
    
    <div class="contact-div col mt-2" data-toggle="modal" data-target="#exampleModal">
@@ -80,24 +78,37 @@
             <div class="row">
               <div class="col-sm">
                 <a href="http://sub.mbaileyfuturist.dev" target="_BLANK"><img style="width:30rem;height:21rem;border: 1px solid black;border-radius: 15px;" src="static/images/RestaurantTemplate.png"></a>
+                <h3 class="project-title text-center mt-3">Restaurant Template</h3>
+                <h5 class="project description text-center">Mobile Responsive Restaurant Template (Developed using Bootstrap, CSS, Javascript, PHP and mySQL).</h5>
               </div>
               <div class="col-sm">
                 <a href="http://sub4.mbaileyfuturist.dev" target="_BLANK"><img style="width:30rem;height:21rem;border: 1px solid black;border-radius: 15px;" src="static/images/MikesBookStore.png"></a>
+                <h3 class="project-title text-center mt-3">Mikes Book Store</h3>
+                <h5 class="project description text-center">Book inventory web application (Developed using Bootstrap, CSS, Javascript, PHP, and mySQL).</h5>
               </div>
             </div>
 
             <div class="row mt-5">
                 <div class="col-sm">
                     <a href="http://sub6.mbaileyfuturist.dev" target="_BLANK"><img style="width:30rem;height:21rem;border: 1px solid black;border-radius: 15px;" src="static/images/AutoTemplate.png"></a>
+                    <h3 class="project-title text-center mt-3">Auto Shop Template</h3>
+                    <h5 class="project description text-center">Mobile Responsive Auto Shop Template (Developed using Bootstrap CSS, JavaScript, PHP, and MySQL).</h5>
                 </div>
                 <div class="col-sm">
-                <a href="http://sub5.mbaileyfuturist.dev" target="_BLANK"><img style="width:30rem;height:21rem;border: 1px solid black;border-radius: 15px;" src="static/images/InvestmentHub.png"></a>
+                    <a href="http://sub5.mbaileyfuturist.dev" target="_BLANK"><img style="width:30rem;height:21rem;border: 1px solid black;border-radius: 15px;" src="static/images/InvestmentHub.png"></a>
+                    <h3 class="project-title text-center mt-3">The Investment Hub</h3>
+                    <h5 class="project description text-center">A dynamic webpage animated using GSAP and scroll magic. (Developed using Bootstrap, CSS, and Javascript).</h5>
                 </div>
             </div>
 
             <div class="row mt-5">
                 <div class="col-sm">
                     <a href="http://sub7.mbaileyfuturist.dev/login.php" target="_BLANK"><img style="width:30rem;height:21rem;border: 1px solid black;border-radius: 15px;" src="static/images/TheFreelancer.png"></a>
+                    <h3 class="project-title text-center mt-3">The Freelancer</h3>
+                    <h5 class="project description text-center">A fully functioning user based website, where freelancers can go to find work and clients can go to hire for jobs. (Developed using Bootstrap, CSS, and Javascript, PHP and MySQL).</h5>
+                </div>
+                <div class="col-sm">
+                
                 </div>
             </div>
           </div>
@@ -107,7 +118,7 @@
             <div class="row">
                 <div class="col-sm ml-5">
                     <nav class="footer-nav">
-                        <a href="#about"><h4 class="text-white"> About</h4></a>
+                        <a href="index.php#about"><h4 class="text-white"> About</h4></a>
                         <a data-toggle="modal" data-target="#exampleModal1"><h4 class="text-white">Contact</h4></a>
 
                         <!-- Contact Forum -->
@@ -155,8 +166,8 @@
 
 
                         <a href="portfolio.php"><h4 class="text-white">Portfolio</h4></a>
-                        <a href="#services"><h4 class="text-white">Services</h4></a>
-                        <a href="#design-process"><h4 class="text-white">Design Process</h4></a>
+                        <a href="index.php#services"><h4 class="text-white">Services</h4></a>
+                        <a href="index.php#design-process"><h4 class="text-white">Design Process</h4></a>
                         <!--<a href="#prices"><h4 class="text-white">Prices</h4></a>-->
                     </nav>
                 </div>

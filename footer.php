@@ -6,7 +6,7 @@
         <!-- Particles.js -->
         <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
         <script>
-            particlesJS.load('particles-js','../static/particles.json', function(){
+            particlesJS.load('particles-js','static/particles.json', function(){
                 console.log('particles.jason loaded...');
             })
         </script>

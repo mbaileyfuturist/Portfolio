@@ -1,6 +1,6 @@
 <?php 
         //Connect to the database.
-        include('../config/db_connect.php');
+        include('config/db_connect.php');
         
         //If form has been submitted.
         if(isset($_POST['contactFrmSubmit'])){
@@ -34,7 +34,7 @@
         <title>Main Feed</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="../static/style.css?v=1.1">
+        <link rel="stylesheet" href="static/style.css?v=1.1">
 
         <!-- Bootstrap CDN -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">

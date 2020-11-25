@@ -1,4 +1,4 @@
-<?php include 'header.php' ?>
+<?php include 'header.php'; ?>
 
 <body>
 
@@ -79,19 +79,25 @@
         <div class="container mt-5 mb-5">
             <div class="row">
               <div class="col-sm">
-                <a href="http://sub.mbaileyfuturist.dev" target="_BLANK"><img style="width:30rem;height:21rem;" src="static/images/RestaurantTemplate.png"></a>
+                <a href="http://sub.mbaileyfuturist.dev" target="_BLANK"><img style="width:30rem;height:21rem;border: 1px solid black;border-radius: 15px;" src="static/images/RestaurantTemplate.png"></a>
               </div>
               <div class="col-sm">
-                <a href="http://sub4.mbaileyfuturist.dev" target="_BLANK"><img style="width:30rem;height:21rem;" src="static/images/MikesBookStore.png"></a>
+                <a href="http://sub4.mbaileyfuturist.dev" target="_BLANK"><img style="width:30rem;height:21rem;border: 1px solid black;border-radius: 15px;" src="static/images/MikesBookStore.png"></a>
               </div>
             </div>
 
             <div class="row mt-5">
                 <div class="col-sm">
-                    <a href="http://sub6.mbaileyfuturist.dev" target="_BLANK"><img style="width:30rem;height:21rem;" src="static/images/AutoTemplate.png"></a>
+                    <a href="http://sub6.mbaileyfuturist.dev" target="_BLANK"><img style="width:30rem;height:21rem;border: 1px solid black;border-radius: 15px;" src="static/images/AutoTemplate.png"></a>
                 </div>
                 <div class="col-sm">
-                <a href="http://sub5.mbaileyfuturist.dev" target="_BLANK"><img style="width:30rem;height:21rem;" src="static/images/InvestmentHub.png"></a>
+                <a href="http://sub5.mbaileyfuturist.dev" target="_BLANK"><img style="width:30rem;height:21rem;border: 1px solid black;border-radius: 15px;" src="static/images/InvestmentHub.png"></a>
+                </div>
+            </div>
+
+            <div class="row mt-5">
+                <div class="col-sm">
+                    <a href="http://sub7.mbaileyfuturist.dev/login.php" target="_BLANK"><img style="width:30rem;height:21rem;border: 1px solid black;border-radius: 15px;" src="static/images/TheFreelancer.png"></a>
                 </div>
             </div>
           </div>

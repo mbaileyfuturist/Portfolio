@@ -188,3 +188,10 @@ body{
 .design-process{
   background-color:#909090;
 }
+#signature{
+  font-family: 'Dancing Script', cursive;
+  font-size:25px;
+  position:absolute;
+  right:10px;
+  bottom:0px;
+}

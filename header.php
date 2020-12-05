@@ -42,5 +42,9 @@
         <!-- Google Fonts API -->
         <link href="https://fonts.googleapis.com/css2?family=Recursive&display=swap" rel="stylesheet">
 
+        <!--Google Fonts: Dancing Script-->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+
     </head>
   

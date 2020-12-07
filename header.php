@@ -17,7 +17,17 @@
 
             //Save to db and check.
             if(mysqli_query($conn, $sql)){
-                echo "Insert Success!";
+                
+                //Send message to email with client info.
+                $toEmail = 'example@example.com';
+                $emailSubject = 'New email from your contant form';
+                $headers = ['From' => $email, 'Reply-To' => $email, 'Content-type' => 'text/html; charset=iso-8859-1'];
+
+                $bodyParagraphs = ["Hello Micheal, ",  "Congratulations, you have a new potential client!", "Name: " . $first_name . " " . $last_name . ".", "Email: " . $email. ".", "Message: ", $client_message];
+                $body = join(PHP_EOL, $bodyParagraphs);
+
+                mail($toEmail, $emailSubject, $body, $headers);
+
             }else{
                 echo "query error ".mysqli_error($conn);
             }

@@ -168,7 +168,6 @@
                 </div>
                 <div class="col-sm align-items-center">
                     <a href="https://www.linkedin.com/in/micheal-bailey-175965122/" target="_BLANK"><ion-icon class="footer-social" name="logo-linkedin"></ion-icon></a>
-                    <a href="https://www.instagram.com/mbaileyfuturist/?hl=en" target="_BLANK"><ion-icon class="footer-social" name="logo-instagram"></ion-icon></a>
                     <a href="https://github.com/mbaileyfuturist" target="_BLANK"><ion-icon class="footer-social" name="logo-github"></ion-icon></a>
                 </div>
             </div>

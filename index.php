@@ -262,7 +262,7 @@
                               <li> <strong>Domain Name: </strong>I will set up and configer a domain name for your website.</li>
                               <li> <strong>Server Deployment:</strong> Once the website is finished and has been approved I will deploy it onto a server.</li>
                           </ul>
-                          <a href="#" class="btn btn-primary" style="margin-left:70px; margin-top:10px;">Purchase</a>
+                          <a data-toggle="modal" data-target="#exampleModal1" class="btn btn-primary text-white" style="margin-left:70px; margin-top:10px;">Contact</a>
                         </div>
                       </div>
                   </div>
@@ -278,7 +278,7 @@
                                 <li> <strong>Domain Name: </strong>I will set up and configer a domain name for your website.</li>
                                 <li> <strong>Server Deployment: </strong> Once the website is finished and has been approved I will deploy it onto a server.</li>
                             </ul>
-                          <a href="#" class="btn btn-primary" style="margin-left:70px; margin-top:20px;">Purchase</a>
+                          <a data-toggle="modal" data-target="#exampleModal1" class="btn btn-primary text-white" style="margin-left:70px; margin-top:20px;">Contact</a>
                         </div>
                       </div>
                   </div>
@@ -295,7 +295,7 @@
                                 <li> <strong>Server Deployment: </strong> Once the website is finished and has been approved I will deploy it onto a server.</li>
                                 <li> <strong>HTTPS Encryption: </strong> I will secure your website using HTTPS encryption.</li>
                             </ul>
-                          <a href="#" class="btn btn-primary" style="margin-left:70px;">Purchase</a>
+                          <a data-toggle="modal" data-target="#exampleModal1" class="btn btn-primary text-white" style="margin-left:70px;">Contact</a>
                         </div>
                       </div>
                   </div>
@@ -321,7 +321,7 @@
                               </button>
                               </div>
                               <div class="modal-body">
-                                  <form action="/action_page.php">
+                                  <form action="header.php" method="POST">
                                       <div class="row">
                                           <input type="text" class="ml-3 mr-1 form-control col" placeholder="first name" id="first_name">
                                           <input type="text" class=" mr-3 ml-1 form-control col" placeholder="last name" id="last _name">
@@ -359,7 +359,6 @@
                 </div>
                 <div class="col-sm align-items-center">
                     <a href="https://www.linkedin.com/in/micheal-bailey-175965122/" target="_BLANK"><ion-icon class="footer-social" name="logo-linkedin"></ion-icon></a>
-                    <a href="https://www.instagram.com/mbaileyfuturist/?hl=en" target="_BLANK"><ion-icon class="footer-social" name="logo-instagram"></ion-icon></a>
                     <a href="https://github.com/mbaileyfuturist" target="_BLANK"><ion-icon class="footer-social" name="logo-github"></ion-icon></a>
                 </div>
             </div>
